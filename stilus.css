@@ -1,1 +1,21 @@
-body
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+    padding: 0;
+    margin: 0;
+}
+
+.tarolo,.tartalom1, .tartalom2 {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.tarolo{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto; /*a tartalamat középre helyezem*/
+    background-color: aliceblue;
+}
