@@ -19,3 +19,10 @@ body{
     margin: auto; /*a tartalamat középre helyezem*/
     background-color: aliceblue;
 }
+
+
+.tartalom{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
